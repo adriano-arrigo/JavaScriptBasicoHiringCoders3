@@ -5,7 +5,7 @@ var cpf = '11144477735';
 var numeros = cpf.substring(0, 9);
 //definindo quais são os dois últimos
 var digitos = cpf.substring(9);
-console.log('Os pimeiros 9 dígitos do cpf são ' + numeros);
+console.log('Os primeiros 9 dígitos do cpf são ' + numeros);
 
 //gerando uma variável para recebr o valor da soma
 var soma = 0;
@@ -18,7 +18,7 @@ for (var i = 10; i > 1; i--) {
     } da var numeros:" ${numeros.charAt(10 - i)}"`
   );
 
-  //conta sendo realziada abaixo
+  //conta sendo realizada abaixo
   soma += numeros.charAt(10 - i) * i;
 
   console.log(
